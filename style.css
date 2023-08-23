@@ -1,5 +1,21 @@
-.container {
-    font-family: "Gill Sans", sans-serif;
+* {
+    background-color: white;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h3 {
+    color: #0096FF;
+}
+
+.lists {
+    background-color: #E0B0FF;
+}
+
+li,
+a {
+    background-color: #89CFF0;
 }
 
 img {
