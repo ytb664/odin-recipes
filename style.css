@@ -1,24 +1,70 @@
-* {
-    background-color: white;
-    color: #000000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h1,
-h3 {
-    color: #0096FF;
-}
-
-.lists {
-    background-color: #E0B0FF;
-}
-
-li,
-a {
-    background-color: #89CFF0;
+body {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 img {
     height: auto;
     width: 240px;
+    border-radius: 25px;
+}
+
+
+.main.container {
+    width: 80%;
+    padding: 5px;
+    margin: 25% auto;
+    box-sizing: border-box;
+    background-color: rgb(137, 207, 240, 0.5);
+    border: 5px solid rgb(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.main h1 {
+    text-align: center;
+    margin: 20px 50px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.main .options {
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 20px 30px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0, 0.5);
+}
+
+.options h3 {
+    text-align: center;
+}
+
+.options .lists {
+    color: black;
+}
+
+.options li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.options a {
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .40rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.options a:visited {
+    color: black;
+}
+
+.options a:hover {
+    border-radius: 25px;
+    box-shadow: inset 200px 0 0 0 rgb(137, 207, 240);
+    color: rgb(255, 255, 255, 0.9);
+    padding: 0 .25rem;
+    border: 2.5px solid rgb(0, 0, 0, 0.5);
 }
